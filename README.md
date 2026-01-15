@@ -45,7 +45,7 @@ Each task contains:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/rodriguezjasonlloyd/seven-gen-task.git
 cd task-management-app
 ```
 
