@@ -1,0 +1,12 @@
+[project]
+name = "seven-gen"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+  "mysql-connector-python>=9.5.0",
+  "questionary>=2.1.1",
+  "rich>=14.2.0",
+]
+
+[tool.rumdl.MD013]
+line_length = 200
