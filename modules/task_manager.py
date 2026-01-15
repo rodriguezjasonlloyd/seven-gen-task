@@ -44,8 +44,6 @@ class TaskManager:
                 for task_data in results:
                     task = Task.from_dict(task_data)
                     self.task_cache[task.task_id] = task
-
-            print(f"Loaded {len(results) if results else 0} tasks from database.")
         except Exception as exception:
             print(f"Warning: Failed to load tasks from database: {exception}")
 
