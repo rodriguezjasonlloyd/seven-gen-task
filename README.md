@@ -121,7 +121,6 @@ task-management-app/
 │   ├── database.py           # DatabaseConnector class
 │   ├── task.py               # Task, Priority, Status classes
 │   └── task_manager.py       # TaskManager business logic
-├── requirements.txt          # Python dependencies
 └── README.md                 # This file
 ```
 
